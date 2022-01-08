@@ -9,7 +9,8 @@ Realizando los primeros pasos de diseño de la web, siguiendo requisitos del cli
 - 2 tipografías máximo.
 - logos e imagenes relacionados al mercado laboral.
 
-Hecho con HTML5 & CSS3 puro.
+Hecho con HTML5 & CSS3 puro. <img align="center" alt="juan-html" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+  <img align="center" alt="juan-css" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
 
 
 ----------------------------------------------------------------------------------------------------
@@ -25,4 +26,5 @@ Making the first steps of the web design, following the client's requirements:
 - 2 typographies maximum.
 - logos and images related to the job market.
 
-Made with pure HTML5 & CSS3.
+Made with pure HTML5 & CSS3. <img align="center" alt="juan-html" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+  <img align="center" alt="juan-css" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
