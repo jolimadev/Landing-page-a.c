@@ -262,7 +262,7 @@ color: #a8a8a8;
     float: none;
     text-align: center;
 }
-@media (max-width:600px) {
+@media (max-width:800px) {
 
     .encabezado-menu {
         flex-direction: column;
