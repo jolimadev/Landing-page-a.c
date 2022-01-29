@@ -14,9 +14,8 @@
     <img class="encabezado-logo" src="./src/A&C.png" alt="logo de A&C"> 
     <nav class="encabezado-menu">
         <a class="encabezado-menu-item" href="index.html">Inicio</a>
-        <a class="encabezado-menu-item" href="">Qué es A&C</a>
-        <a class="encabezado-menu-item" href="">Referencias</a>
-        <a class="encabezado-menu-item" href="">Trabaja Con Nosotros</a>
+        <a class="encabezado-menu-item" href="#somos">Quienes Somos</a>
+        <a class="encabezado-menu-item" href="#aportamos">Aportes</a>
     </nav>
     </header> 
 
@@ -25,12 +24,28 @@
     <div class="contenido-principal-escrito">
         <h1 class="contenido-principal-titulo">Bienvenido/a: <br> A&C </h1>
         <h2 class="contenido-principal-subtitulo">Servicios de Limpieza Personalizados</h2>
-        <button class="contenido-boton"> Fija un turno</button>
+        <button href ="#" class="contenido-boton"> Fija un turno</button>
     </div>
         <img class="img-main" src="./src/a&cmain.png" alt="img de servicio principal">
     </section>
+  
+    
+    <section class="contenido-terciario">
+   <div>
+     <h1 class="contenido-titulo-terciario" id="somos"> Quienes Somos?  </h1>
+     <p class="parrafo-secundario"> Un servicio que surge de una necesidad de limpieza personalizada a Inmuebles Temporales, Departamentos, oficinas, etc. </p> <br>
+     <h3 class="contenido-titulo-terciario">Porque personalizado?</h3>
+     <p class="parrafo-secundario">Porque disponemos de un personal con experiencia y confianza, quienes son nuestro activo principal en la limpieza. <br>
+        Nos aseguramos brindar la calidad de nuestro servicio con distintos métodos de control, tales como: <br> 
+        <li class="parrafo-secundario">Verificación de trabajos</li>
+        <li class="parrafo-secundario">Comunicación con el/la cliente</li>
+        <li class="parrafo-secundario">Análisis y Realización de encuestas.</li>
+        <br>
+        <strong> Todo lo nombrado anteriormente nos permite analizar, corregir y mejorar día a día nuestro servicio.</strong></p>
+   </div>
+   </section>
 
-    <section class="contenido-secundario">
+    <section id="aportamos" class="contenido-secundario">
         <h3 class="contenido-titulo-secundario">¿Qué aportamos?</h3>
         <p class="parrafo-secundario"><strong> 1.Experiencia en Maestranza +10 años.</p>
         <p class="parrafo-secundario"><strong> 2.Experiencia en Temporales, Consultorios, y Residencias.</strong></p>
@@ -41,9 +56,11 @@
     </article>
         <div class="contact_form">
         <div class="formulario">      
-        <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
-            <form action="submeter-formulario.php" method="post">       
-            
+        <h3> Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+        
+        <form id="contacto" action="https://formsubmit.co/a.apps@outlook.es" method="POST">
+        
             <p>
                 <label for="nombre" class="colocar_nombre">Nombre
                 <span class="obligatorio">*</span>
