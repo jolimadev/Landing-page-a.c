@@ -285,6 +285,7 @@ color: #a8a8a8;
     
 
     .encabezado-menu {
+        
         flex-direction: column;
     }
    .contenido-principal {
